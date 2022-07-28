@@ -17,3 +17,10 @@ docker-compose - usado para subir container usando o docker files.
 ```
 sudo systemctl enable --new docker docker.socket containerd
 ```
+### help
+
+```
+docker --help
+```
+
+https://hub.docker.com/ - repositório comunitário com imagens de várias aplicações e sistemas operacionais em containers.
