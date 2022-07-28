@@ -17,3 +17,6 @@ Container - Diferente do que acontece com uma VM um container Docker consegue co
 Uma vantagem dos Containers docker por ser de tamanho reduzido você consegue ter backups relativamente simples, já configuradas e pré-prontos (Ex: ao invés d subir uma disto e instalar o NGINX nela, você pode simplesmente subir um NGINX já pré-instalado) facilitando a escalabilidade e diminuindo o timer de vários serviços.
 
 A tecnologia de Container dimuinui os custos e possibilita uma série de negócios que antigamente estava restrito apenas a quem tinha grandes infraestruturas.
+
+Ex: é possível fazer Streamer de APP via docker com interface
+
