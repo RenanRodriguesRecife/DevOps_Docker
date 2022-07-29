@@ -38,3 +38,4 @@ sudo su
 ```
 docker pull wordpress
 ```
+(OBS: O que você baixou aqui é uma Imagem wordpress em docker. A imagem é uma forma (uma base) que é usada para criar vários servidores dockers diferentes com mesma configuração)
