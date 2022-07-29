@@ -39,3 +39,15 @@ sudo su
 docker pull wordpress
 ```
 (OBS: O que você baixou aqui é uma Imagem wordpress em docker. A imagem é uma forma (uma base) que é usada para criar vários servidores dockers diferentes com mesma configuração)
+
+3 - O comando docker images é possível ver as imagens disponíveis
+```
+docker images
+```
+<img src="">
+<img src="">
+
+IMAGE ID - id único da imagem
+SIZE - tamanho
+
+4 -
