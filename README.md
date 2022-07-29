@@ -29,3 +29,12 @@ https://hub.docker.com/ - repositório comunitário com imagens de várias aplic
 ## Mini-tutorial
 
 Criar uma instancia local de wordPress
+
+1 - Logar como root (Linux)
+```
+sudo su
+```
+2 - Baixar uma imagem do WordPress do DockerHub (se você não expecificar uma versão o comando vai tentar baixar a ultima imagem
+```
+docker pull wordpress
+```
