@@ -44,8 +44,8 @@ docker pull wordpress
 ```
 docker images
 ```
-<img src="">
-<img src="">
+<img src=".assets/docker img.JPG">
+
 
 IMAGE ID - id único da imagem
 SIZE - tamanho
@@ -72,12 +72,12 @@ depois que você fez isso o container já está rodando
 docker ps
 ```
 
-<img src=""> 
+<img src=".assets/ps.JPG"> 
 
 CONTAINER ID -> lista os IDs dos containers em execução
 PORTS -> a porta que o servidor está usando (se você digitar o endereço de ip do browser você vai poder acessar uma instancia do container - nesse caso é wordpress)
 
-<img src="">
+<img src=".assets/insta.JPG">
 
 ## Remover Container
 
@@ -86,6 +86,8 @@ PORTS -> a porta que o servidor está usando (se você digitar o endereço de ip
 docker ps -a
 ```
 -a -> mostra todos os containers que estão rodando e parados.
+
+<img src=".assets/list runing container.JPG">
 
 OBS: Os containers que estão rodando estão com estado de UP. Os que existem mas não estão rodando ficam com estado diferente.
 
@@ -120,6 +122,8 @@ obs: Se algum container estiver usando a imagem. Você vai precisar remover o co
 
 - baixando a image do ubunto 
 docker pull ubunto
+
+<img src=".assets/docker img ubu.JPG">
 
 - criando um container
 docker run -it ubuntu
