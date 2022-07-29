@@ -79,10 +79,48 @@ PORTS -> a porta que o servidor está usando (se você digitar o endereço de ip
 
 <img src="">
 
+## Remover Container
+
+1 - Listar os containers que estão rodando
+```
+docker ps -a
+```
+-a -> mostra todos os containers que estão rodando e parados.
+
+OBS: Os containers que estão rodando estão com estado de UP. Os que existem mas não estão rodando ficam com estado diferente.
+
+2 - Containers que estão rodando não podem ser removidos. Você precisa parar eles primeiro
+
+```
+docker stop ID_DO_CONTAINER
+```
+OBS:
+Inicia o container
+```
+docker start ID_DO_CONTAINER
+```
+Reinicia o container
+```
+docker restart ID_DO_CONTAINER
+```
+
+3 - para remover um container você usa o comando:
+```
+docker rm ID_DO_CONTAINER
+```
+obs: mas as imágens continuam no computador. Para remover as imagens usa o comando:
+```
+docker rmi ID_DA_IMAGEM
+```
+obs: Se algum container estiver usando a imagem. Você vai precisar remover o contaneir primeiro antes de remover a imagem. Você pode até forçar a remoção da imagem com um container em execução mas isso pode causar alguns problemas. 
+
+
 
 ### OBS: Criando o ubunto service
+
 - baixando a image do ubunto 
 docker pull ubunto
 
 - criando um container
 docker run -it ubuntu
+
