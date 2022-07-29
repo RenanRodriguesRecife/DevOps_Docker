@@ -65,3 +65,24 @@ docker run -> comando para rodar o container
 -d **wordpress** -> expecifica qual é a imagem que vai rodar atravéz dessa porta
 
 depois que você fez isso o container já está rodando
+
+5 - Esse comando lista os containers em execução
+
+```
+docker ps
+```
+
+<img src=""> 
+
+CONTAINER ID -> lista os IDs dos containers em execução
+PORTS -> a porta que o servidor está usando (se você digitar o endereço de ip do browser você vai poder acessar uma instancia do container - nesse caso é wordpress)
+
+<img src="">
+
+
+### OBS: Criando o ubunto service
+- baixando a image do ubunto 
+docker pull ubunto
+
+- criando um container
+docker run -it ubuntu
