@@ -24,3 +24,8 @@ docker --help
 ```
 
 https://hub.docker.com/ - repositório comunitário com imagens de várias aplicações e sistemas operacionais em containers.
+
+
+## Mini-tutorial
+
+Criar uma instancia local de wordPress
