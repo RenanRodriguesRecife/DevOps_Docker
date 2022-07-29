@@ -50,4 +50,18 @@ docker images
 IMAGE ID - id único da imagem
 SIZE - tamanho
 
-4 -
+4 - Um container é uma imagem em execução. E para criar um container baseado em uma imagem. Roda um comando:
+
+```
+docker run --name meuwordpress -p 8080:80 -d wordpress
+```
+
+docker run -> comando para rodar o container
+
+--name **meu_wordpress** -> expecifica um nome para o container
+
+-p **8080:80** -> expecifica uma porta para o serviço rodar
+
+-d **wordpress** -> expecifica qual é a imagem que vai rodar atravéz dessa porta
+
+depois que você fez isso o container já está rodando
