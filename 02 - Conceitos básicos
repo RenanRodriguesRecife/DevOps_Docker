@@ -2,3 +2,28 @@ Imagem - A imagem é uma forma (uma base) que é usada para criar vários servid
 
 
 Container - Um container é uma imagem em execução
+
+
+benefícios de container:
+
+
+- evitar o problema "na minha máquina funciona"
+  
+  - (portabilidade e idepotencia) Como os containers são padronizados. Eles podem ser rodados em diversos ambientes diferentes 
+  sem precisar se preocupar com o tipo de processo interno do container. (você consegue garantir o 
+  mesmo comportamento independentemente do ambiente que você estiver executando).
+
+
+- problemas de dempencia
+  
+  - Evita o problema de gerenciamento de versões de dependencias entre aplicações
+  
+  - Evita com que a instalação de aplicações diferentes entrem em conflito por sobrescrever
+  versões de dependencias.
+
+- Evita o processo de instalar e desistalar aplicações. Evita se preocupar com setups
+Se você que desinstalar um processo é só matar o container.
+
+
+
+O docker não depende do hypevison (ele usa features do próprio kérnel sistema hospedeiro para gerar os containers)
