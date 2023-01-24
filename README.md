@@ -128,3 +128,12 @@ docker pull ubunto
 - criando um container
 docker run -it ubuntu
 
+================================
+
+```
+configurando o windows
+
+- WSL 2 - AMbiente linux e todos seus benefícios
+- windows terminal
+- docker desktop
+```
