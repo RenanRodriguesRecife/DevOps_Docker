@@ -137,3 +137,8 @@ configurando o windows
 - windows terminal
 - docker desktop
 ```
+
+
+
+Fontes:
+https://www.youtube.com/watch?v=BICy_5hXWWs&t=8629s
