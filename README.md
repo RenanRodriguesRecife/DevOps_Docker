@@ -2,7 +2,7 @@ Docker - é usado para se referir tanto a uma empresa (Docker) quanto a ferramen
 
 Como fazer um ambiente propício tanto para desenvolvimento quanto produção para que todas as pessoas do squad conseguisem rodar o mesmo ambiente (evitando catástrofes).
 
-Antigamente fazia isso atréz de VM (máquinas virtuais)
+Antigamente fazia isso atréz de VM (máquinas virtuais) (permitia rodar um sistema operacional dentro de outro). O problema é que isso consumia muito recursos (CPU + RAM + HD)
 
 Docker e Ubunto Server (06/2022)
 
