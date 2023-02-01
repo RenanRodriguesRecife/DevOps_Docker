@@ -18,10 +18,15 @@ Docker e Ubunto Server (06/2022)
 sudo apt install docker.io docker-compose
 ```
 
+windows - instalar o wsl2
+
+https://github.com/codeedu/wsl2-docker-quickstart
+
+
+
 docker.io - básico para rodar o docker
 
 docker-compose - usado para subir container usando o docker files.
-
 
 
 ### fazer o docker iniciar junto com o sistema e habilitar seu uso sem reiniciar o servidor
