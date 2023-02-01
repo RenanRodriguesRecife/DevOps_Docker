@@ -1,3 +1,9 @@
+Docker - é usado para se referir tanto a uma empresa (Docker) quanto a ferramenta (Docker) - na maioria das vezes que estiver se referindo a Docker é para falar da ferramenta.
+
+Como fazer um ambiente propício tanto para desenvolvimento quanto produção para que todas as pessoas do squad conseguisem rodar o mesmo ambiente (evitando catástrofes).
+
+Antigamente fazia isso atréz de VM (máquinas virtuais)
+
 Docker e Ubunto Server (06/2022)
 
 ### instalar:
