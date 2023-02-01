@@ -2,7 +2,10 @@ Docker - é usado para se referir tanto a uma empresa (Docker) quanto a ferramen
 
 Como fazer um ambiente propício tanto para desenvolvimento quanto produção para que todas as pessoas do squad conseguisem rodar o mesmo ambiente (evitando catástrofes).
 
-Antigamente fazia isso atréz de VM (máquinas virtuais) (permitia rodar um sistema operacional dentro de outro). O problema é que isso consumia muito recursos (CPU + RAM + HD)
+Antigamente fazia isso atréz de VM (máquinas virtuais) (permitia rodar um sistema operacional inteiro dentro de outro). O problema é que isso consumia muito recursos (CPU + RAM + HD). E isso piorava muito vando você precisava iniciar multiplas máquinas virtuais na mesma máquina por conta de diferentes projetos). (Se usava o Vangrant). Em em produção quando se precisava escalonar a aplicação para que ela suportasse mais requisições tinha que ter várias máquinas virtuais rodando.
+
+Container - é um processo no sistema operacional que é enganado achando que tem um sistema operacional inteiro a disposição dele, mas no final da conta ele é apenas um processo.
+
 
 Docker e Ubunto Server (06/2022)
 
