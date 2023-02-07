@@ -8,6 +8,13 @@ Container - é um processo no sistema operacional que é enganado achando que te
 
 O container é um processo mais amigável. Ele inicia mais rápido e também é finalizado mais rápido que um sistema operacional.
 
+
+----
+Quando você tem uma máquina virtual. No final das contas vocÊ tem um sistema operacional dentro de outro sistema operacional. (você tem que separar CPU, RAM, HD, instalar o sistema operacinal...etc...gastando muito recurso computacional)
+
+Docker (container) ele trabalha como um Processo, ele tá utilizando todas as bibliotecas do sistema operacional PAI, o container pensa que é um sistema operacional mas não é.
+
+
 ===========================
 
 Docker e Ubunto Server (06/2022)
